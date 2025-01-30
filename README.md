@@ -24,7 +24,7 @@ To run the project locally, clone the repository:
 git clone https://github.com/tripleAay/HNG-Public-Api
 cd public-api
 
-## Backlink to Hiring Resources
+### Backlink to Hiring Resources
 
 If you're interested in hiring developers for your next project, consider checking out the following resource for **Node.js** developers:
 
