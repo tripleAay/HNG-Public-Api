@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.send({
         email: process.env.EMAIL,
         current_datetime: current_datetime.toISOString(),
-        github_url: "",
+        github_url: process.env.GITHUB_URL
     });
 });
 
