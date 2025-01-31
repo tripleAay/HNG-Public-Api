@@ -7,7 +7,7 @@ const PORT = process.env.PORT;
 const app = express();
 app.use(cors());
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
     const current_datetime = new Date();
     res.send({
         email: process.env.EMAIL,
